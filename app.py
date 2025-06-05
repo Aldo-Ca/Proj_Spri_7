@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 # Cargamos el DataSet del cual vamos obtener la información
-df = pd.read_csv('C:/Users/aldo_/OneDrive/Documentos/My Learning/Bootcamp/Proyectos/Proj_Spri_7/vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 # Encabezado
 st.markdown("#<h1 style='text-align: center; color: white;'>Bienvenido a un vistazo al carrazo...🚗</h1>", unsafe_allow_html=True)
